@@ -8,7 +8,7 @@ body{
 }
 .maincontainer{
     width: 700px;
-    height: 600px;
+    height: -700px;
     padding: 20px 30px;
     position: absolute;
     top: 40%;
@@ -17,6 +17,9 @@ body{
 }
 .head-name{
     color: orangered;
+}
+span{
+  color: red;
 }
 .container{
     width: 400px;
@@ -40,6 +43,10 @@ body{
     border-radius: 10px;
     border: 1px solid black;
     margin-left: 25px;
+}
+.btn:hover{
+   background-color: burlywood;
+   color: black;
 }
 .result-session{
    margin-top: 25px;
